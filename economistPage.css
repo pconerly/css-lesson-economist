@@ -1,0 +1,135 @@
+/* The css for economistPage.html 
+*/
+.pagenum {
+	position: absolute;
+	top: 25px;
+	left: 30px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.bluebackground {
+	background-color: #CDDADD;
+}
+.redwrapper {
+	height: 10px;
+	width: 10px;
+}
+.redendbox {
+	height: 10px;
+	width: 10px;
+	background-color: red;
+	position: relative;
+	top: -23px;
+	left: 104px;
+}
+#header ul {
+	list-style: none;
+	height: 25px;
+	width: 880px;
+	padding-left: 0px;
+	font-size: 12px;
+}
+#header li {
+	margin-top: 5px;
+	float: left;
+}
+
+li#region {
+	font-weight: bold;
+	margin-left: 5px;
+}
+li#theeconomist {
+	font-weight: bold;
+	margin-left: 508px;
+}
+li#date {
+	margin-left: 3px;
+}
+
+body {
+	font-family: Verdana,Arial,sans-serif;
+	margin: 20px;
+	margin-left: 60px;
+	width: 880px;
+}
+h1 {
+	font-size: 12px;
+	font-weight: bold;
+	color: red;
+	margin: 0px;
+}
+h2 {
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: 0px;
+}
+h3 {
+	font-size: 8px;
+	font-weight: bold;
+	margin-top: 80px;
+	margin: 0px;
+}
+h4 {
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0px;
+}
+p {
+	font-size: 12px;
+}
+
+div>p:first-of-type {
+	margin-top: 0px;
+}
+
+p strong {
+	font-weight: bold;
+}
+
+#leftcontent {
+	float: left;
+}
+
+#firstarticle {
+	
+	width: 570px;
+	-moz-column-count: 2;
+	-moz-column-gap: 20px;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 20px;
+}
+
+#secondarticle {
+	padding: 5px;
+	width: 570px;
+	margin-top: 10px;
+}
+
+#secondarticle .articletext {
+   -moz-column-count: 2;
+   -moz-column-gap: 20px;
+   -webkit-column-count: 2;
+   -webkit-column-gap: 20px;
+}
+
+.articletext {
+	margin-top:5px;
+}
+
+.nomargin {
+	margin-top: -12px;
+	margin-bottom: -12px;
+	}
+
+#thirdcolumn {
+	float: left;
+	width: 280px;
+	margin-left: 20px;
+}
+
+#bigboat {
+	position: relative;
+	top: -24px;
+	left: -10px;
+
+}
