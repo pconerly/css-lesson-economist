@@ -1,79 +1,79 @@
 /* css for filefolder.html */
 
 html {
-	background-color: white;
+  background-color: white;
 }
 body {
-	margin: 20px;
-	padding: 20px;
-	width: 800px;
-	background-color: #EDEFD0;
-	}
+  margin: 20px;
+  padding: 20px;
+  width: 800px;
+  background-color: #EDEFD0;
+  }
 
 #header h1 {
-	font-family: Verdana,Arial,sans-serif;
-	}
+  font-family: Verdana,Arial,sans-serif;
+  }
 #header ul {
-	list-style: none;
-	height: 25px;
-	width: 880px;
-	padding-left: 0px;
-	font-size: 12px;
+  list-style: none;
+  height: 25px;
+  width: 880px;
+  padding-left: 0px;
+  font-size: 12px;
 }
 #header li.header {
-	cursor: pointer;
+  cursor: pointer;
 }
 #header li {
-	margin-top: 0px;
-	padding: 20px;
-	font-size: 16px;
-	font-family: Verdana,Arial,sans-serif;
-	float: left;
-	border-style: solid;
-	border-color: black;
-	border-width: 2px;
-	border-bottom-width: 0px;
+  margin-top: 0px;
+  padding: 20px;
+  font-size: 16px;
+  font-family: Verdana,Arial,sans-serif;
+  float: left;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  border-bottom-width: 0px;
 }
 #header li.spacer {
-	width: 30px;
-	padding-bottom: 38px;
-	border-style: solid;
-	border-color: black;
-	border-width: 0px;
-	border-bottom-width: 2px;
+  width: 30px;
+  padding-bottom: 38px;
+  border-style: solid;
+  border-color: black;
+  border-width: 0px;
+  border-bottom-width: 2px;
 }
 #header li.spacerlast {
-	width: 127px;
-	padding-bottom: 38px;
-	border-style: solid;
-	border-color: black;
-	border-width: 0px;
-	border-bottom-width: 2px;
+  width: 127px;
+  padding-bottom: 38px;
+  border-style: solid;
+  border-color: black;
+  border-width: 0px;
+  border-bottom-width: 2px;
 }
 
 .clear {
-	clear: both;
+  clear: both;
 }
 
 #content {
-	padding: 20px;
-	border-style: solid;
-	border-color: black;
-	border-width: 2px;
-	border-top-width: 0px;
-	overflow:hidden;
-	height: 0px;
+  padding: 20px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  border-top-width: 0px;
+  overflow:hidden;
+  height: 0px;
 }
 
 #content div {
-	display: none;
+  display: none;
 }
-	
+  
 #folder {
-	background-color:brown;
-	height: 800px;
-	width: 800px;
-	z-index: 10;
+  background-color:brown;
+  height: 800px;
+  width: 800px;
+  z-index: 10;
 }
 
 
